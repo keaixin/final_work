@@ -1,0 +1,6 @@
+<launch>
+  <node name="xf_tts" pkg="xfei_asr" type="tts_subscribe_speak"/>
+  <node name="xfspeech" pkg="xfei_asr" type="iat_publish_speak" />
+  <node name="tuling" pkg="xfei_asr" type="tuling_nlu" output="screen"/>
+  
+</launch>

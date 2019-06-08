@@ -1,0 +1,7 @@
+<launch>
+  <node pkg="homework" type="get_audio.py" name="get_audio"/>
+  <node pkg="homework" type="speech_recognition.py" name="speech_recognition"/>
+  <node pkg="homework" type="translate.py" name="tranlate"/>
+  <node pkg="homework" type="tuling" name="tuling"/>
+  <node pkg="homework" type="speech_control.py" name="speech_control" output="screen"/>
+</launch>
